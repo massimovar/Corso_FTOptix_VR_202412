@@ -1,3 +1,1844 @@
 Name: Alarms
 Id: g=3293e7cd8de0bb06cc725e017a984470
 Type: AlarmsCategoryFolder
+Children:
+- Name: DigitalAlarm1
+  Id: g=ec3354afbf534f779cee6855e39afe23
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=da0b6b2dd4d2127a10dccb1017bae703
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ddd14476a7a12ad9adcbb2eec85f8021
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1623ad1206b44532a64970d7c36ddeb1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=00607c34934e0f4c81364fec0a8737bd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=b04aa14f2a1cbcc016775ccfbdfc9a52
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=810fbd2f373aa62400c439ef49de4f2d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=31a46461b7e3ee71fefe6f74321ba08d
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+  - Name: MaxTimeShelved
+    Id: g=0378d939ef055f360cc5107ff75defb2
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=84916aa2613f8d3b8cad44b76e297773
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm2
+  Id: g=97edb215b3ca45d392d538884007b180
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2b96cf430f28602b7c3a636fdfe75f0a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f708bee9a7a7e1474c749667ecd7a1e5
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=5e671b07dcbc43c2bd355f0149e0bba1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=7ccd4e3d13b77f450f159a4f810ec350
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=de978b7d15d26b81f33add93807b6e97
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=840c938250afe7754a1e5b387b7fb34e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=bf45ced357b95fc075c6fccd995147cc
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+  - Name: MaxTimeShelved
+    Id: g=2c97ed80de2a96bab470325494725d27
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=706138dbb200cfc85db17e017e621320
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm3
+  Id: g=5f1455f2f3a941b1a50f67450f0fb106
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3b9e22aab4484479474a4df40e019d41
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=404dd6f865cc00778d389fbaedf7f9bb
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e70992566d6c45fabccceec65f28a7c5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=86cda99bca5a216daf1bf084464a4835
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=76e521d52007949a709ecdac9d01f9db
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=d616d651aac9f579b74440104a6cc798
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=7d2d26a390bd12220ebb0471c9795ef6
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+  - Name: MaxTimeShelved
+    Id: g=06ecaab8877a62da25cd23beb1a74272
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=e9809c5177498bd5a0ca25c04a9088fe
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm4
+  Id: g=ce8529ff65d84944a62c006c690de360
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7ffa2acdea11e6f867c85fda8db9f8e0
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ca72f4f78d8f7a769b3673f9ecc0a667
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f66ea5bebb644a9caab7091b6c69de08
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=82595ec98bf30b32ecb2a27d9f7b2e3d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=25a3fdef23066c56438e8f0145c6965a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=206080d11b440db390cad401dd00afee
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=79e6eb10a88c1194c1ac441ecfb64850
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 4
+  - Name: MaxTimeShelved
+    Id: g=036c597571c36cd3bb0a65e38ef58bd4
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=e732007c6eef873cc86ed420fb5d2f22
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm5
+  Id: g=9e77a2c8bc4b4d278a75fe1e18596239
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=3039f40d6225facc37f8878a85402ad3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d0903727cadc8d64e77ea7a837ff16ea
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=97fe791b07b844829ed983d2828d1e3a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=1f638a87756625f72556be20f7aca47d
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=fe441299ef518046a554eb52ed62b099
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=d283b7d5f337ef97832b6642aec4aa56
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=72a30b1a99bccfdb40592874aebec72f
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 5
+  - Name: MaxTimeShelved
+    Id: g=bbb943b4d75fe0f477a967b2015269db
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=800cc750c13a621d45b3e70454dce025
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm6
+  Id: g=e1b305ef5691482e894b87578a253429
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8720a4b2755fb6890d472abac2165684
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=aabaa4965a659bd1351054d83f515bcb
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=3a2a9673877341259b74771787e412dc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=78daef6409496b0543e0c331737c87a0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=00242edf75db8a457ae521037f45fbb5
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=c83ac83ec6adada306f1b9585291e468
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=56ed6f3093013a80ab58dbb1c9b0ba62
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 6
+  - Name: MaxTimeShelved
+    Id: g=2677090c1f4cb794c167aac447d1a2c9
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=1f17ddf1e6264398f56cd0bd19ef4881
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm7
+  Id: g=27dbf885450141abb20a11eca83f1e6d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4ae0681cbf2d337e3087cb75c945712b
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=07a3a38f11fdcedf9451428b45e0368c
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=d9802ba907204f47984dc602f6db99b1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=c8e9826e4d6150284b1209c2e2d58ebf
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=9561f354c4090dd29c53730d69a72cad
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=9dfc62fa4c42e86c520cfe9e972a5923
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=166197f28534a6dedf99a1d8806c1bce
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 7
+  - Name: MaxTimeShelved
+    Id: g=b59b7edad78cd2dc3435873821d32cbc
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=56ac63ec41a09a58df63278af68da1b1
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm8
+  Id: g=76e53701ab4544dcbcb96f51240f64e2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=c5bb5501fd2c4168e6ff63706c2ff852
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=12fd1b32f598c984ebdca05294125b58
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=e48c42f7d06b4173bc44864aba13c7d7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=98a913cdf9dc810d30d366a154696fc6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=fcf2d1c1a7a6ff172f55b5178e06c25e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=5783611c6d57785188907b2b6553968e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=d0fd6875effd19f91d5f38a4ebe86475
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8
+  - Name: MaxTimeShelved
+    Id: g=f59ddbc69c9de1ac182c6eef2b9de152
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=ac2c26aad660cd0672812df8ef0433c3
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm9
+  Id: g=88c6ec7de67044f6b7dc40f7f766ab18
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7b34fb2610ca9a3ac26cbf8e2b49691a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8eebfbc0ad4b09705919e98f462017ee
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=8470805cb9104e57b9fb5da770004977
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=4d6cfa419ae1015199d60c5a415da828
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=abcf25ea6e29c0f0e4d1765bcbf1a841
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=8a1cba07cc5242301e5d703c6c597fc1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=8f44ff238eab9e0029035ee274cabc1c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 9
+  - Name: MaxTimeShelved
+    Id: g=2a724215a6d3ecc72acd7c3c00053910
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=7b5a18e5af4bfb314d83d9d55eecab04
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm10
+  Id: g=afaf06d3482e4cb7b80c8e81a0d3cc4c
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=8fa03f9b94be5921c6b2018e2c21b138
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=e3f1fac0be1d36dbee970edab9fb390d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=66a19a2fb0a34bb696ad8c1f939fef93
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=59992e5f15ce83f824e67616a3451d54
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=fb5c6cd239bdbb8713326bc16e7e2550
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=dc6af6e087e7be0ba4ce2ee90877dd82
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=d095ad629012ed1c5d60c022dd2b4c0b
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 10
+  - Name: MaxTimeShelved
+    Id: g=392fc05617e091745c4956ce44b88bd8
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=49b5ac39b133245a0997da897d2330d2
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm11
+  Id: g=addffe9faf0343b5984cb8a2d53f5464
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=07263b906553b6a193f92cde7293bc1f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=404201885d20344db2e6787210461137
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=a488c4d03bcb4111ba06b840c2edaaa7
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=a49bd5ee0d2e0fc6b932be1ce474935e
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=6aeff58da2bac60563ce465e5d48f411
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=ee6659b895a98249dcbfbc4fb7fd271e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=7da25ef4c1117a8cc35bf0d8d0743145
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 11
+  - Name: MaxTimeShelved
+    Id: g=79ef6f54bcb8134b4497a202aedab3fc
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=ea8a41315aca91b3b7cc0fc250b542ad
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm12
+  Id: g=641aa88a0b484ad28e501a66dfb5da3f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=312caf2f4f52d67f8eb03e10b043b9ac
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=00f75620e027a0a41baa73d5e860d1d6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=2ec5e4e8ffa14c9da57901e34a4ff05f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=76439188f5a1017e03810b7ca181e9e5
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=4373d4cd4b63e0760c92d01a778144c0
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=18dc0cf5f2848e9c2bb7fb8a9f09ef6b
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=d0fb07396aa95d72bfaa6457c5cbb812
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 12
+  - Name: MaxTimeShelved
+    Id: g=3e918632cf67a5191b2ea292be6b93f2
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=d5fde980665e9d10beecb240d94faaa7
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm13
+  Id: g=146ff635f32a4e9fac071bcc47c2c433
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=23706c5894439acbe26d79e7f6b55c93
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=b38d355271114dd37739bdf53fcf23b6
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=ec056ac4faf14646997b0f5eb1f12a09
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=1fc7976c558b8ba98bbb19f69381c0d7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=1d10f35ac002915f03f2e57446c726cc
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=716cf774c609d5e82451e5a56d86cecc
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=27e6eb294d4a7e29b83899c0e72ea8ab
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 13
+  - Name: MaxTimeShelved
+    Id: g=3a37e794036e01bd5e08650ee676da26
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=955972d75d06492854cdd1728962484a
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm14
+  Id: g=042d569a28bf4e48b997fd1a12401bd1
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e1cc5408d6442b27c2b5e4b9fff691a5
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=f26f308fefa4494f6123949a7bc7ac73
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=dad6002f7f1d4b71b4ffcc624ba486b2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=c7da482d509026644a0e9c36496476d0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=84d70440af856d68d76c7815966da5d4
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=83eb9cd65b96c489f1178c05a4133732
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=ffa381a624118254e5aec75b690070f7
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 14
+  - Name: MaxTimeShelved
+    Id: g=f764d7e04fda993366857f94380b20f2
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=7bd1ea713e7f377f6b338569cf9de4f0
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm15
+  Id: g=841796ba3d7645649ef5178dfe8ceaab
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=07dd8fa70da48997279c52ab5f9f68f7
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=dbfcc544228e6cfed8e81894f6bb6199
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=737be51a164b4feb96c4ff6de0fc9b94
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=59613c1b6ad5186c84eead8ac71ee1c4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=c2165f61fb9f05589b2bb8bd87f59f70
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=cfa1634a5af53b3e6a442cd9fd2683ae
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=732820a6308e5ef17480361cd0701500
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 15
+  - Name: MaxTimeShelved
+    Id: g=295c17033dde499f239414027face504
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=4028d7731ae245352a4bb58480a36f3a
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm16
+  Id: g=bf9fdf09fdde47448f37346f05d4de36
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=dbbbabc7c4b480f3efab8577b6b63308
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ba55f1eb292ac45a25d344c02c2b1c14
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=760535c07d034d079f94ac9dc2d9617a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=5112f1b295e82c0da98b7a3cab2388d7
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=4a4b28ce95228d056e8c7dd4c1509b56
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=bcd808cb43a2dfd3193ac46e77c1dc5d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=ed9b21075c39c19b4187c557be683a01
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 16
+  - Name: MaxTimeShelved
+    Id: g=acc384b3d567ff11028dd04b2f07ed1e
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=e43f3c854eecf9eb54f19675d8414e1c
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm17
+  Id: g=53cec35dbe314c908f1049cfcb1bfd94
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=d1c27a85b7ff0815af3c2da70911d573
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=beb3c4518da9215fe23b24594afbd237
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=125553f3a7a4458f947e9d8c411e72cf
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=8e2cdf85a329353b13b27748a7ddd5cd
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=72cd4216c252699c224469390bbfc80d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=bd1a129a583a615272252a7e6da26f94
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=d07141f67389cd8cdc7f2cb3cd2045d8
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 17
+  - Name: MaxTimeShelved
+    Id: g=699f55724906a1b06d1b13149c343a6a
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=f56ba120c2fd08d14b69185ab3367cfb
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm18
+  Id: g=7a57be1295b5467b88a34a3c9c852a1a
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=489533854b6e6b5d9dc5a12df70b0333
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=2377ec27e934b31b6185b915383d46e5
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=eb731a24d4a548edad0b3fc3035a28d2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=c3eab408ed54f9043fdc65d596c9b629
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=3f3ecd5b50dce60ae1c03aafbf6a7e59
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=7f973c6563613d7c099313396625d4c8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=ab5a3391168011396be27b74025a3b98
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 18
+  - Name: MaxTimeShelved
+    Id: g=a82e25200934c0af27eca1e1358755cf
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=29d453451fb35c816a3aec5db8417fd0
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm19
+  Id: g=c965367ef7f6455ca40899ef2732256e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=9f4f8552af2afc2de88ea2adea86b5fb
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ef2732c76b502afb76ab89875d31d1b5
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=dae90fe96f9c47f58c47a72b9ac52ac9
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=314953f38d044b9292b57addb017b299
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=4e97ff0ece1efe244181d61b82494d56
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=73ddc0e13f4fe3682aac72232ef9519a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=de5d8c8dd322ae70edcc7a59cd9cd01c
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 19
+  - Name: MaxTimeShelved
+    Id: g=2cfa25c00abed298d668ce2784739ba9
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=8528e8dd0072754cd1592f76b19fc868
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm20
+  Id: g=23150d0dabc04a34992d71c41be98c2d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=12088237b8f84f2b1067c7d6e31d8378
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8096cb8d1883219b11b7a37b4f9f7b56
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=353473e294a94307b7da211c7c45cf79
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=aa25bef066bff66264be8d7f1ba105e9
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=8e18377ddd95f8e78366229b754f50d2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=c7e9ab05cbfabe2c672d991c480bfb3a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=f034316c046fc843857ffb13ed42fe43
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 20
+  - Name: MaxTimeShelved
+    Id: g=57c35730a24e8e7a89e5889840991c9c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=4fe682fc62c1407f5f2e1d969b7debe8
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm21
+  Id: g=5a118f9c723249708bfa65122911a6c0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=26fef76d631743f6cf24b2ff5ff0bd7d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ce84d5bdab0ef8668b3dabd366e19d7d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=45ba77137f934c9eacdc754f205d92b2
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=a9efde1b6cd42ea3a4f008b09b7a8016
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=aa2d9a6d342bf073c4e38b1ebaaa7efa
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=7836df343e7935269d0db2c0f9926903
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=2e9463f6de3f89f733027a6bfbc10744
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 21
+  - Name: MaxTimeShelved
+    Id: g=001c815224e61213b4f6c30395ca2f0c
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=20514ac5691ff954f119655e0a333139
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm22
+  Id: g=f18606db7a1140f191ef77d8b58467eb
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7e5bb2b89fe244fd63e9fd12360d6c2a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=8e4f6e22cce4e9b45def180f87b76159
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=658cab77fd4c499eadcd4b87f8582710
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al2"
+  - Name: LastEvent
+    Id: g=b7377c6a9f7cbddfc70e16568bfda21a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=f9abb4a20d0fa72b84aad02c338619ac
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=075848c2c05350de2dbd5036a14ae2c1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=14ba3205a587a4f0e5300e289278ce99
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 22
+  - Name: MaxTimeShelved
+    Id: g=bb5a0a1bc9b76a8e527726c19d5841d8
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=6f4222c7c2ec5be9e366665fde94a34d
+    Type: BaseDataVariableType
+    DataType: Duration
+- Name: DigitalAlarm23
+  Id: g=022d30d201064a9ea680871fd0d612c0
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=74435a284aefb8563341674dd253ba9d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=fa07aab01ef4f0b75cfbbaf3b1f0b323
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=be240273fa804618bd737e0399655dc1
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_FTOptix_VR_202412/Model/Al1"
+  - Name: LastEvent
+    Id: g=d9a8258c51420ba9ef5c1ea97b426cf4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: AutoAcknowledge
+    Id: g=c9003f2df890def761ad73637350b26e
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=25da0632595f8608d48fa9dc2fdb74a2
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=93666e9a4637ca45dd6dc903a80c9d19
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 23
+  - Name: MaxTimeShelved
+    Id: g=72ac95846b43396c578f70e958c5ad7e
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: PresetTimeShelved
+    Id: g=acdb7c32c4d91530da10e907776ca20c
+    Type: BaseDataVariableType
+    DataType: Duration

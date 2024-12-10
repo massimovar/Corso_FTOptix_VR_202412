@@ -9,6 +9,11 @@ using FTOptix.SerialPort;
 using FTOptix.WebUI;
 using FTOptix.CODESYS;
 using FTOptix.CommunicationDriver;
+using FTOptix.Alarm;
+using FTOptix.Store;
+using FTOptix.SQLiteStore;
+using FTOptix.EventLogger;
+using FTOptix.DataLogger;
 #endregion
 
 public class SystemToNetworkInterfacesEditModelWriterLogic : BaseNetLogic

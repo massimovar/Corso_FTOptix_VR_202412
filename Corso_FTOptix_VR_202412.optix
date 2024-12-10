@@ -97,16 +97,48 @@ Project:
    Uri: 'urn:FTOptix:CODESYS:Net'
    Module: FTOptix.CODESYS.Net
    Version: 2.0
+  25:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  26:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
+  27:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.0
+  28:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
+  29:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  30:
+   Uri: 'urn:FTOptix:Store:Net'
+   Module: FTOptix.Store.Net
+   Version: 1.0
+  31:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+  32:
+   Uri: 'urn:FTOptix:SQLiteStore:Net'
+   Module: FTOptix.SQLiteStore.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 3291
-  Objects: 546
-  ObjectTypes: 27
-  Variables: 2708
+  TotalNodeCount: 4371
+  Objects: 739
+  ObjectTypes: 30
+  Variables: 3586
   VariableTypes: 0
   DataTypes: 0
-  Methods: 10
-  References: 30
+  Methods: 16
+  References: 304
   ReferenceTypes: 0
-  Files: 35
+  Files: 36
  Nodes:
  - File: Nodes/Corso_FTOptix_VR_202412.yaml
