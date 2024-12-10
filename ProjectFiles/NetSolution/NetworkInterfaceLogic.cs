@@ -5,6 +5,8 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
+using FTOptix.CODESYS;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class NetworkInterfaceLogic : BaseNetLogic

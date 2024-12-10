@@ -1,0 +1,62 @@
+Name: Silos
+Type: FolderType
+Children:
+- Name: Silos_Tipo
+  Id: g=c56ef73be3e5527a99ea25cd71c94a66
+  Supertype: BaseObjectType
+  Children:
+  - Name: PortataMassima
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Riempimento
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: AllarmeSilos
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Silos_Tipo1
+  Id: g=8c41a148926226b6c9456ec73fe65078
+  Type: Silos_Tipo
+  Children:
+  - Name: PortataMassima
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: Riempimento
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: AllarmeSilos
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Silos_Tipo2
+  Id: g=2317c4b7999d249e1cfd343834c1d3df
+  Type: Silos_Tipo
+  Children:
+  - Name: PortataMassima
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 200
+  - Name: Riempimento
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 90
+  - Name: AllarmeSilos
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Silos_Tipo3
+  Id: g=fb5c259c120bb963d746a048b72381ae
+  Type: Silos_Tipo
+  Children:
+  - Name: PortataMassima
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 300
+  - Name: Riempimento
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: AllarmeSilos
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true

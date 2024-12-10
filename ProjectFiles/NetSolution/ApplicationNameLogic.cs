@@ -4,6 +4,8 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.SerialPort;
 using FTOptix.WebUI;
+using FTOptix.CODESYS;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class ApplicationNameLogic : BaseNetLogic

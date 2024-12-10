@@ -81,16 +81,32 @@ Project:
    Uri: 'urn:FTOptix:NetLogic'
    Module: FTOptix.NetLogic
    Version: 4.0
+  21:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 3.0
+  22:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 3.0
+  23:
+   Uri: 'urn:FTOptix:CODESYS'
+   Module: FTOptix.CODESYS
+   Version: 2.0
+  24:
+   Uri: 'urn:FTOptix:CODESYS:Net'
+   Module: FTOptix.CODESYS.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 2208
-  Objects: 428
-  ObjectTypes: 22
-  Variables: 1748
+  TotalNodeCount: 3291
+  Objects: 546
+  ObjectTypes: 27
+  Variables: 2708
   VariableTypes: 0
   DataTypes: 0
   Methods: 10
-  References: 23
+  References: 30
   ReferenceTypes: 0
-  Files: 28
+  Files: 35
  Nodes:
  - File: Nodes/Corso_FTOptix_VR_202412.yaml
